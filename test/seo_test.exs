@@ -35,7 +35,7 @@ defmodule SEOTest do
       # unfurl
       assert result =~ ~s|<meta name="twitter:label2" content="Reading Time">|
       # facebook
-      assert result =~ ~s|<meta name="fb:app_id" content="123">|
+      assert result =~ ~s|<meta property="fb:app_id" content="123">|
       # breadcrumb
       assert result =~
                ~s|{"@type":"ListItem","item":"https://example.com/articles","name":"Articles","position":1}|

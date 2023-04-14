@@ -36,7 +36,7 @@ defmodule SEO.Facebook do
     ~H"""
     <%= if @item do %>
     <%= if @item.app_id do %>
-    <meta name="fb:app_id" content={@item.app_id} />
+    <meta property="fb:app_id" content={@item.app_id} />
     <% end %>
     <% end %>
     """
